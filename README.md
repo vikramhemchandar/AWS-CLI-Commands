@@ -63,7 +63,7 @@ Example: aws s3 ls --profile herovired
 aws s3 ls --profile default
 ```
 
-## AWS CLI Command Cheat Sheet
+## AWS CLI Command Sheet
 
 | S. No | AWS Command | Parameters (if any) | Quick Use |
 |------:|------------|---------------------|-----------|
