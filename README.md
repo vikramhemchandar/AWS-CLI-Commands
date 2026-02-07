@@ -63,6 +63,18 @@ Example: aws s3 ls --profile herovired
 aws s3 ls --profile default
 ```
 
+## Create Kubernetes Cluster (ekscts)
+To create a new Kubernetes cluster on AWS
+```
+eksctl create cluster --name vikramhemchandar-eks-cluster --region ap-south-1 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 2 --nodes-max 4
+```
+To update the kubeconfig
+```
+aws eks --region ap-south-1 update-kubeconfig --name vikramhemchandar-eks-cluster
+```
+
+
+
 ## AWS CLI Command Sheet
 
 | S. No | AWS Command | Parameters (if any) | Quick Use |
