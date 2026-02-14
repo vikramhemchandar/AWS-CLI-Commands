@@ -15,7 +15,7 @@ Provide access key, secret key, default region and format as json (in small) and
 aws configure list-profiles
 ```
 
-- To add another account, name it with meaningful account name:
+- To **add another account**, name it with meaningful account name:
 ```
 aws configure --profile <profile name>
 ```
